@@ -3,9 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "node start.js"
+  },
   "dependencies": {
     "@google-cloud/pubsub": "^2.5.0",
     "dotenv": "^8.2.0",
-    "node-notifier": "^8.0.0"
+    "menubar": "^9.0.1",
+    "node-fetch": "^2.6.1",
+    "node-notifier": "^8.0.0",
+    "simple-oauth2": "^4.1.0"
   }
 }
